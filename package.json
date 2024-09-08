@@ -7,10 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d .next"
+    "deploy": "next build && gh-pages -d out"
   },
   "dependencies": {
-    "next": "14.2.8",
+    "next": "^14.2.8",
     "react": "^18",
     "react-dom": "^18"
   },
