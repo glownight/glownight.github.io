@@ -1,7 +1,14 @@
+import { Button, Divider } from "antd";
+
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+        <p>分支：dev_react-notion</p>
+        <Button className="bg-[#20985e]" type="primary">
+          点我测试react-notion
+        </Button>
+        <Divider className="bg-[#1f8e94]" dashed />
         <p>“最最喜欢你，绿子。”</p>
         <p>“什么程度？”</p>
         <p>“像喜欢春天的熊一样。”</p>
