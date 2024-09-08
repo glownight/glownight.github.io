@@ -1,4 +1,5 @@
 import { Button, Divider } from "antd";
+import "./globals.css";
 
 export default function Home() {
   return (
@@ -9,8 +10,8 @@ export default function Home() {
           点我测试react-notion
         </Button>
         <Divider className="bg-[#1f8e94]" dashed />
-        <p>“最最喜欢你，绿子。”</p>
-        <p>“什么程度？”</p>
+        <p className="bg-[#186f74]">“最最喜欢你，绿子。”</p>
+        <p className="testp2">“什么程度？”</p>
         <p>“像喜欢春天的熊一样。”</p>
         <p>“春天的熊？”绿子再次仰起脸，“什么春天的熊？”</p>
         <p>
