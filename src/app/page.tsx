@@ -8,9 +8,9 @@ export default function Home() {
         <p>晚安😴</p>
         <p>明天加油～</p>
         <p>一切都会好好的。</p>
-        {/* <Button className="bg-[#20985e]" type="primary">
-          点我测试react-notion
-        </Button> */}
+        <Button className="bg-[#20985e]" type="primary">
+          点我加油～
+        </Button>
         <Divider className="bg-[#1f8e94]" dashed />
         <p className="bg-[#186f74]">“最最喜欢你，绿子。”</p>
         <p className="testp2">“什么程度？”</p>
