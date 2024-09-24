@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "rm -rf out && next build && gh-pages -d out"
+    "deploy": "rm -rf out && next build && dev_react-notion -d out"
   },
   "dependencies": {
     "antd": "^5.20.5",
