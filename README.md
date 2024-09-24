@@ -1,12 +1,3 @@
-# nightglow_client
-个人网站客户端
-
-## 开发dev分支
-
-## 把dev分支合并到gh-pages分支
-
-## 在dev分支上执行yarn deploy
-
 # 代码提交规范
 
 1. **feat**: 引入新功能。

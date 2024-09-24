@@ -6,7 +6,6 @@ export default function Home() {
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <p>晚安😴</p>
-        <p>明天加油～</p>
         <p>一切都会好好的。</p>
         <Button className="bg-[#20985e]" type="primary">
           点我加油～
