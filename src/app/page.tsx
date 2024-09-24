@@ -5,11 +5,12 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <p>分支2：dev_react-notion</p>
-        <p>{Date()}</p>
-        <Button className="bg-[#20985e]" type="primary">
+        <p>晚安😴</p>
+        <p>明天加油～</p>
+        <p>一切都会好好的。</p>
+        {/* <Button className="bg-[#20985e]" type="primary">
           点我测试react-notion
-        </Button>
+        </Button> */}
         <Divider className="bg-[#1f8e94]" dashed />
         <p className="bg-[#186f74]">“最最喜欢你，绿子。”</p>
         <p className="testp2">“什么程度？”</p>
