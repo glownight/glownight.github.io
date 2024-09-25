@@ -1,5 +1,4 @@
-import { Button, Divider, Timeline } from "antd";
-import { SmileOutlined } from "@ant-design/icons";
+import { Button, Divider } from "antd";
 import "./globals.css";
 import Link from "next/link";
 
@@ -7,42 +6,6 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <div className="flex flex-col row-start-2 items-center sm:items-start">
-        <Timeline
-          items={[
-            {
-              color: "green",
-              children: "今天要开心",
-            },
-            {
-              color: "red",
-              children: (
-                <>
-                  <p>一切都会好好的</p>
-                </>
-              ),
-            },
-            {
-              children: (
-                <>
-                  <p>我们会暴富</p>
-                </>
-              ),
-            },
-            {
-              color: "orange",
-              children: (
-                <>
-                  <p>我们会一直很健康</p>
-                </>
-              ),
-            },
-            {
-              color: "#00CCFF",
-              dot: <SmileOutlined />,
-              children: <p>加油哦</p>,
-            },
-          ]}
-        />
         <div className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
           <Link href="/">
             <Button className="bg-[#20985e]" type="primary">
