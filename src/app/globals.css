@@ -29,3 +29,12 @@ body {
 .testp2{
   color: #85139c;
 }
+
+.spanTextCss{
+  @apply bg-[#186f74]  text-xl transition hover:bg-blue-200 md:transition duration-700
+ 
+}
+
+.lineColor{
+  @apply bg-[#186f74]
+}

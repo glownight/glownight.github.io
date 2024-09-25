@@ -1,14 +1,14 @@
 import Link from "next/link";
-import "../../app/globals.css";
+// import "../../app/globals.css";
 
 export default function Index() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <p className="bg-[#186f74]">这里是我的博客首页</p>
+        <p className="spanTextCss">usestate首页</p>
         <Link href="/">
           {/* <Button className="bg-[#20985e]" type="primary"> */}
-          <span className="bg-[#186f74]">回到首页</span>
+          <span className="spanTextCss">回到首页</span>
           {/* </Button> */}
         </Link>
         {/* <p className="testp2">“什么程度？”</p>
