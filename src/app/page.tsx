@@ -6,13 +6,19 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <div className="flex flex-col row-start-2 items-center sm:items-start">
-        <div className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+        <div className="flex flex-col gap-3 row-start-2 items-center sm:items-start">
           <Link href="/love">
             <Button className="bg-[#20985e]" type="primary">
-              亲爱的，早安❤
+              wkt，Je t'aime❤
             </Button>
           </Link>
-
+          <Link href="/love">
+            <Button className="bg-[#20985e]" type="primary">
+              你是我永远期待的夏天❤
+            </Button>
+          </Link>
+        </div>
+        <div className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
           <Divider className="bg-[#1f8e94]" dashed />
           <p className="bg-[#186f74]">“最最喜欢你，绿子。”</p>
           <p className="testp2">“什么程度？”</p>
