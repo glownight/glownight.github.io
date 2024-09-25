@@ -1,18 +1,9 @@
-import { Button, Divider } from "antd";
-import "./globals.css";
-import Link from "next/link";
+import "../../app/globals.css";
 
-export default function Home() {
+export default function About() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Link href="/about">
-          <Button className="bg-[#20985e]" type="primary">
-            亲爱的，早安❤
-          </Button>
-        </Link>
-
-        <Divider className="bg-[#1f8e94]" dashed />
         <p className="bg-[#186f74]">“最最喜欢你，绿子。”</p>
         <p className="testp2">“什么程度？”</p>
         <p>“像喜欢春天的熊一样。”</p>
