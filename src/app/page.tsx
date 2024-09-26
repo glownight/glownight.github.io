@@ -9,7 +9,7 @@ export default function Home() {
         <div className="flex flex-col gap-3 row-start-2 items-start sm:items-start">
           <Link href="/love">
             <Button className="bg-[#20985e]" type="primary">
-              wkt，Je t'aime❤
+              加油❤
             </Button>
           </Link>
           <Link href="/love">
