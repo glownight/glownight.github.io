@@ -1,6 +1,6 @@
-import { Button, Divider } from "antd";
+// import { Button, Divider } from "antd";
 import "./globals.css";
-import Link from "next/link";
+// import Link from "next/link";
 
 export default function Home() {
   return (
